@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="ConstructorInjection.Certi" id="cert">
+        <constructor-arg value="Andriod by kotlin" />
+
+    </bean>
+    <bean class="ConstructorInjection.Person" id="person">
+        <constructor-arg index="0" value="Ram"/>
+        <constructor-arg index="1" value="11"/>
+        <constructor-arg index="2" ref="cert"/>
+        <constructor-arg index="3" >
+            <list>
+            <value>Reading</value>
+                <value>Swimming</value>
+            </list>
+        </constructor-arg>
+
+    </bean>
+
+    <bean class="ConstructorInjection.Addition" id="add">
+      <constructor-arg value="10"/>
+        <constructor-arg value="20"/>
+
+    </bean>
+
+</beans>

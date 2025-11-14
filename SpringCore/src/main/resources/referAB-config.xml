@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="InjectingReference.B" id="Brefer">
+        <property name="y" >
+            <value>54</value>
+        </property>
+
+    </bean>
+
+    <bean class="InjectingReference.A" id="Arefer">
+<property name="x">
+    <value>55</value>
+</property>
+        <property name="obj" >
+       <ref bean="Brefer"
+        />
+        </property>
+
+    </bean>
+
+</beans>

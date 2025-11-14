@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="Collections.Emp1" id="Emp2">
+        <property name="empName"  value="codername"/>
+
+        <property name="phone_no" >
+            <list>
+                <value>5484848</value>
+                <value>4668464</value>
+            </list>
+        </property>
+
+        <property name="addresses" >
+                <set>
+                    <value>Delhi</value>
+                    <value>Mumbai</value>
+                </set>
+        </property>
+
+        <property name="courses" >
+        <map>
+            <entry key="java" value="2months"/>
+            <entry key="javascript" value="3months"/>
+
+
+        </map>
+        </property>
+
+
+    </bean>
+
+<!--    <bean class="org.example.Emp" id="Emp2">-->
+<!--        <property name="EmpName"  value="shyam"/>-->
+<!--        <property name="City"  value="chennai"/>-->
+<!--        <property name="state" value="Andhrpradesh"/>-->
+
+
+<!--    </bean>-->
+
+</beans>

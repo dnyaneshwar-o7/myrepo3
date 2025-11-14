@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="AutoWiring.Address" id="address">
+        <property name="street" value="temp Street"/>
+        <property name="city" value="Delhi"/>
+    </bean>
+
+    <bean class="AutoWiring.Address" id="address1">
+        <property name="street" value=" Street"/>
+        <property name="city" value="Pune"/>
+    </bean>
+
+    <bean class="AutoWiring.Employe" id="emp1"  autowire="byName"  />
+
+    </beans>

@@ -1,0 +1,11 @@
+1.What are the data types in java?
+ -  Data types in java are of different size and values that can stored in variable.
+ -  Two Type's of data type i. Primitive Data type
+                                              ii. Non-Primitive Data type
+ 
+  i. Primitive Datatypes:-Such as Boolean, char, int, short, byte, Long, Float, and   
+     double.
+  ii. Non-Primitive Datatypes(Object Data type):-Such as String, Array,etc
+ 
+2. Why do we need types in java?
+ - Because it is a strongly typed language

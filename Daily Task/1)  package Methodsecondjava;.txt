@@ -1,0 +1,228 @@
+1)  package Methodsecondjava;
+
+public class acessvalue {
+    public static void main(String[] args) {
+        acessvalue object=new acessvalue();
+        object.localvalue(10, 20);
+
+    }
+    void localvalue(int a, int b){
+
+        System.out.println(a);
+        System.out.println(b);
+    }
+}
+
+
+2)  package Methodsecondjava;
+
+public class acessvalue {
+    public static void main(String[] args) {
+        acessvalue object=new acessvalue();
+        object.localvalue(40, 50);
+
+    }
+    void localvalue(int a, int b){
+
+        System.out.println(a);
+        System.out.println(b);
+    }
+}
+
+
+3)  package Methodsecondjava;
+
+public class Boolean {
+    public static void main(String[] args) {
+        boolean a=true;
+        a=false;
+        System.out.println(a);
+    }
+}
+
+4)package Methodsecondjava;
+
+public class Char {
+    public static void main(String[] args) {
+        char a='$';
+        System.out.println(a);
+    }
+}
+
+5)  package Methodsecondjava;
+
+public class Createmethod {
+    static  void myMethod()
+    {
+        System.out.println("I just got executed!");
+    }
+
+    public static void main(String[] args) {
+        myMethod();
+    }
+}
+
+6)package Methodsecondjava;
+
+public class Double {
+    public static void main(String[] args) {
+        float num =858489.87F;
+        System.out.println(num);
+    }
+}
+
+
+7)package Methodsecondjava;
+
+public class Integer {
+    public static void main(String[] args) {
+        int num=500;
+        System.out.println(num);
+    }
+}
+
+8) package Methodsecondjava;
+
+public class Main {
+    public static void main(String[] args) {
+        long num =873487347987l;
+        System.out.println(num);
+    }
+}
+
+9) package Methodsecondjava;
+
+public class Method {
+  static void myMethod(){
+      System.out.println("executed");
+  }
+
+    public static void main(String[] args) {
+        myMethod();
+    }
+}
+
+10) package Methodsecondjava;
+
+public class Method {
+  static void myMethod(){
+      System.out.println("executed");
+  }
+
+    public static void main(String[] args) {
+        myMethod();
+    }
+}
+
+11)  package Methodsecondjava;
+
+public class newclass {
+    public static void main(String[] args) {
+        int number =200;
+        System.out.println(number);
+    }
+}
+
+12)package Methodsecondjava;
+
+public class Numbert {
+    public static void main(String[] args) {
+        byte itsnumber =100;
+        System.out.println(itsnumber);
+    }
+}
+
+13)package Methodsecondjava;
+
+public class Primitivedata {
+    public static void main(String[] args) {
+        short num=5000;
+        System.out.println(num);
+    }
+}
+
+14)package Javabasic;
+
+public class CallMethodUsingObject
+{
+    public static void main(String[] args)
+    {
+        CallMethodUsingObject obbb = new CallMethodUsingObject();
+         //Syntax for calling methods
+        //objectReferenceName.methodname();
+        obbb.printmessage();
+        obbb.dummyMethod(1000);
+        obbb.multipleparams(100, true,748747);
+    }
+    void printmessage()
+    {
+        System.out.println("This is test message 1234");
+    }
+    void dummyMethod(int a)
+    {
+        System.out.println("Input Parameter value is" +a);
+    }
+    void multipleparams(int aa,boolean bbb, long ll)
+    {
+        System.out.println("this method takes 3 Parameters");
+ 
+15)  package Javabasic;
+
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}
+
+16)  package Javabasic;
+
+public class main {
+    public static void main(String[] args) {
+        int a=325;
+        System.out.println(a);
+    }
+}
+
+17)package Javabasic;
+
+public class mainlong {
+    public static void main(String[] args) {
+        long X=12454552l;
+        System.out.println(X);
+    }
+}
+
+18) package Methodsecondjava;
+
+public class add {
+    public static void main(String[] args) {
+        add obj= new add();
+        obj.Addtwonumbers(10,20);
+        obj.Subtract(40,20);
+        obj.divide(40,4);
+        obj.multi(10,4);
+
+    }
+    void Addtwonumbers(int a, int b){
+       int ans;
+       ans=a+b;
+        System.out.println(ans);
+    }
+    void Subtract(int a, int b){
+        int ans;
+        ans=a-b;
+        System.out.println(ans);
+    }
+    void divide(int a,int b){
+        int ans;
+        ans=a/b;
+        System.out.println(ans);
+    }
+    void multi(int c, int d){
+        int ans;
+        ans=c*d;
+        System.out.println(ans);
+    }
+
+
+}

@@ -1,0 +1,26 @@
+Types of Data types in Java
+1) Primitive data types
+2) Non_Primitive
+    A) In built data types
+    B) User Defined data types
+
+
+1) Primitive data types
+size and range
+KB => MB => GB  => TB
+byte   1byte   -128 to 127
+short
+int
+float
+long
+double
+char
+boolean
+
+String
+
+2) Non_Primitive
+    A) In built data types  => String, Arrays
+    B) User Defined data types
+
+
